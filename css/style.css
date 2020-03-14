@@ -1,0 +1,84 @@
+#header {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header .title {
+	font: bold 50px arial;
+	color: #776e65;
+	margin: 0 auto;
+}
+
+#header .author {
+	font-size: 15px;
+	font-family: arial;
+	margin: 0px auto;
+	padding-left: 30%;
+}
+
+#header .wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#header .score-wrapper,
+#header .newgame-wrapper {
+	width: 100px;
+	height: 26px;
+	background-color: #8f7a66;
+	padding: 6px;
+	border-radius: 6px;
+	line-height: 26px;
+}
+
+#header .score-wrapper #txt {
+	font-weight: bold;
+}
+
+#header .score-wrapper #score {
+	padding-left: 5px;
+	color: aqua;
+}
+
+#header .newgame-wrapper #newgame {
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#header .newgame-wrapper:hover {
+	cursor: pointer;
+	background-color: #bdac9c;
+}
+
+#grid-container{
+	width: 460px;
+	height: 460px;
+	padding: 20px;
+	background-color: #cfb79b;
+	margin: 10px auto;
+	border-radius: 10px;
+	position: relative;
+}
+
+#grid-container .grid-cell{
+	width: 100px;
+	height: 100px;
+	background-color: #cec6bb;
+	border-radius: 6px;
+	position: absolute;
+}
+
+#grid-container .number-cell{
+	border-radius: 6px;
+	font-size: 50px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+}
